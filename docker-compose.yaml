@@ -1,0 +1,10 @@
+
+services:
+  app:
+    build: .
+    container_name: build-llm
+    volumes:
+      - .:/app
+    command: sleep infinity
+    tty: true
+    stdin_open: true

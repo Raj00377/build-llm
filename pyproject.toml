@@ -1,0 +1,10 @@
+[project]
+name = "python-uv-docker"
+version = "0.1.0"
+description = "Python application using uv and Docker"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "tiktoken>=0.14.0",
+    "torch>=2.15.0",
+]
